@@ -63,7 +63,7 @@ def main ():
         print("Invalid choice.")
         return
 
-    gen_story = story.format(
+    genet_story = story.format(
         adjective=get_word("an adjective"),
         adjective2=get_word("another adjective"),
         adjective3=get_word("yet another adjective"),
@@ -89,7 +89,7 @@ def main ():
     )
 
     print("\nGenerated Story:")
-    print(gen_story)
+    print(genet_story)
 
 
 if __name__ == "__main__":
