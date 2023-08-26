@@ -1,6 +1,5 @@
 import random
-
-
+#barevbarlus
 # Function to get user input for a specific word
 def get_word (prompt):
     return input(f"Enter {prompt}: ")
